@@ -1,0 +1,51 @@
+/*Reset basico para remover margens e 
+padding padrão*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilizando o corpo da página*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(122, 122, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* */
+
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 10px black
+}
+
+label{
+    font-weight: bolder;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#enviar{
+    background-color: green;
+    cursor: pointer;
+    
+}

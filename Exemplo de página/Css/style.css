@@ -1,0 +1,21 @@
+ffooter{
+    background-color: blue;
+    align-items: center;
+}
+a{
+    color: aquamarine;
+}
+
+#p1{ text-align: center;
+    color: green;
+}
+
+#pi{
+    color: black;
+}
+
+#img1{
+    animation-direction: alternate-reverse ;
+    align-self: center;
+    align-items: center;
+}
