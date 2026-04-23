@@ -1,29 +1,31 @@
 /*Reset basico para remover margens e 
 padding padrão*/
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /*Estilizando o corpo da página*/
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(122, 122, 122);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 /* */
 
-div{
+div {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-form{
+
+form {
     background-color: rgb(255, 255, 255);
     padding: 25px;
     border-radius: 10px;
@@ -31,21 +33,33 @@ form{
     box-shadow: 0 4px 10px black
 }
 
-label{
+label {
     font-weight: bolder;
     display: block;
     margin-top: 10px;
     margin-bottom: 5px;
 }
 
-input{
-    width: 100%;
+input {
+    width: 95%;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-#enviar{
+
+#enviar {
     background-color: green;
     cursor: pointer;
-    
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+}
+#enviar:hover {
+    background-color: rgb(64, 0, 155);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
