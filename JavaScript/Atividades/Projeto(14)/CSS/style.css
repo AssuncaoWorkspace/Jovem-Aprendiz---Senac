@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(99, 97, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+}
+
+button {
+    align-content: center;
+    border-radius: 5px
+}
+
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-weight: bolder;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

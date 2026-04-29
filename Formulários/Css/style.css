@@ -56,6 +56,7 @@ input {
     font-weight: bolder;
     color: white;
 }
+
 #enviar:hover {
     background-color: rgb(64, 0, 155);
 }
