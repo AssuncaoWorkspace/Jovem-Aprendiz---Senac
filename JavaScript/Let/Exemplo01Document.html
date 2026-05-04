@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 01 Document (LET)</title>
+</head>
+
+<body>
+    <h1>Exemplo LET no Document</h1>
+    <label for="">Digite um número:</label>
+    <input type="number" id="mult">
+     <label for="">Digite outro número:</label>
+    <input type="number" id="mult2">
+
+    <button onclick="multiplicar()">Clique aqui para somar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function multiplicar() {
+            let numero1 = Number(document.getElementById("mult").value);
+            let numero2 = Number(document.getElementById("mult2").value);
+            let numeros = numero1 + numero2;
+            document.getElementById("resultado").innerHTML = "O resultado é: " + numeros;
+
+        }
+    </script>
+</body>
+
+</html>
