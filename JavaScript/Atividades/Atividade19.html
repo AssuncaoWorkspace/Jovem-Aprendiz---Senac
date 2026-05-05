@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 19</title>
+</head>
+
+<body>
+    <h1>Painel</h1>
+    <h3>Registro de alunos</h3>
+
+    <label for="">Digite o seu nome:</label>
+    <input type="text" id="nome" placeholder="Digite seu nome aqui">
+    <label for="">Digite a sua idade:</label>
+    <input type="text" id="idade" placeholder="Digite sua idade aqui">
+
+    <button onclick="mostrar()">Mostrar</button>
+    <p id="resultado"></p>
+
+    <script>
+        const sistema = "Sistema de registro"
+        function mostrar() {
+            let nome = document.getElementById('nome').value;
+            let idade = document.getElementById('idade').value;
+            document.getElementById('resultado').innerHTML = "Bem vindo " + nome + ", você tem " + idade + " anos. Bem vindo ao " + sistema
+        }
+    </script>
+</body>
+
+</html>
