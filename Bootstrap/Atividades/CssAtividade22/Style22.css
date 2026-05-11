@@ -1,11 +1,11 @@
 .form-button {
     margin: auto;
     width: 500px;
-    margin-top: 300px;
+    margin-top: 250px;
     border-radius: 10px;
     align-items: center;
     background-color: white;
-    height: 350px;
+    height: 550px;
 }
 
 .form-group {
@@ -24,5 +24,9 @@ body {
 }
 
 h1{
+    text-align: center;
+}
+
+p{
     text-align: center;
 }
