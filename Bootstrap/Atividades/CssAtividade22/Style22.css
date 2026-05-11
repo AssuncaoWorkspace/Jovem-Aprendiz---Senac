@@ -1,0 +1,28 @@
+.form-button {
+    margin: auto;
+    width: 500px;
+    margin-top: 300px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+    height: 350px;
+}
+
+.form-group {
+    margin: auto;
+    width: 400px;
+}
+
+.btn-02 {
+   margin-top: 20px;
+   text-align: center;
+   
+}
+
+body {
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+}

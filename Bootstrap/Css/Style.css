@@ -1,0 +1,32 @@
+body {
+    background-color: gray;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-boot-01 {
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-01 {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
