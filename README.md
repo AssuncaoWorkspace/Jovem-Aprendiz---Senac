@@ -59,8 +59,6 @@ Abra no navegador:
 
 - `http://localhost/Jovem-Aprendiz-Senac/<pasta>/<arquivo>.php`
 
-> Observação: para `GET/POST` (formulários e requisições), os links/ações (`action`) precisam apontar para os arquivos `.php` corretos.
-
 ### 4) Banco de Dados (MySQL)
 A pasta **`Banco de Dados/`** contém arquivos `.sql` e materiais de diagramas.
 
