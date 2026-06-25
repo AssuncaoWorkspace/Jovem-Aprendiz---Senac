@@ -61,7 +61,7 @@ Abra no navegador:
 
 > Observação: para `GET/POST` (formulários e requisições), os links/ações (`action`) precisam apontar para os arquivos `.php` corretos.
 
-### 4) (Opcional) Banco de Dados (MySQL)
+### 4) Banco de Dados (MySQL)
 A pasta **`Banco de Dados/`** contém arquivos `.sql` e materiais de diagramas.
 
 Fluxo típico:
