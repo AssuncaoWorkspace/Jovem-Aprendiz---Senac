@@ -1,0 +1,1 @@
+alter table professor modify nome varchar(90);
