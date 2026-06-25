@@ -1,9 +1,5 @@
 # Jovem Aprendiz SENAC — Projetos
 
-<div align="center">
-  <img src="Bootstrap/img/logo.png" alt="Logo" width="180" />
-</div>
-
 Este repositório reúne os projetos desenvolvidos durante minha jornada como **Jovem Aprendiz no SENAC**. O objetivo é documentar minha evolução técnica, prática e profissional ao longo do programa.
 
 ---
@@ -63,9 +59,7 @@ Abra no navegador:
 
 - `http://localhost/Jovem-Aprendiz-Senac/<pasta>/<arquivo>.php`
 
-> Observação: para `GET/POST` (formulários e requisições), os links/ações (`action`) precisam apontar para os arquivos `.php` corretos.
-
-### 4) (Opcional) Banco de Dados (MySQL)
+### 4) Banco de Dados (MySQL)
 A pasta **`Banco de Dados/`** contém arquivos `.sql` e materiais de diagramas.
 
 Fluxo típico:
