@@ -1,9 +1,5 @@
 # Jovem Aprendiz SENAC — Projetos
 
-<div align="center">
-  <img src="Bootstrap/img/logo.png" alt="Logo" width="180" />
-</div>
-
 Este repositório reúne os projetos desenvolvidos durante minha jornada como **Jovem Aprendiz no SENAC**. O objetivo é documentar minha evolução técnica, prática e profissional ao longo do programa.
 
 ---
